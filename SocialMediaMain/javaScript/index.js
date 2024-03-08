@@ -9,5 +9,5 @@ function suma(x, y)
 let boton = document.querySelector("button");
 
 boton.addEventListener("click", function() {
-    console.log("Miguel gay");
+    console.log("Miguel sopla");
 });
