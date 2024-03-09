@@ -75,6 +75,30 @@ figure img {
     border-radius: 50%;
 }
 
+
+
+.boton-red-social {
+    display: block;
+    background-color: var(--Gris); /* Color de fondo similar al de los botones de redes sociales */
+    padding: 16px 0;
+    font-size: 14px;
+    border-radius: 7px;
+    border: none; /* Eliminar borde */
+    width: 30%; /* Ajustar al ancho */
+    margin: 16px auto; /* Centrar horizontalmente y agregar espacio entre el botón y las tarjetas */
+    text-align: center; /* Centrar texto horizontalmente */
+    transition: background-color 0.3s, color 0.3s, font-weight 0.3s;
+    color: white;
+}
+
+.boton-red-social:hover {
+    background-color: green; /* Cambiar color de fondo al pasar el ratón */
+    color: var(--Negro-Opaco); /* Cambiar color de texto al pasar el ratón */
+    font-weight: 600; /* Cambiar peso de la fuente al pasar el ratón */
+}
+
+
+
 /* Headings */
 h2,
 h4 {
