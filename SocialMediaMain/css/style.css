@@ -138,12 +138,12 @@ p {
 @media (min-width: 768px) {
     .tarjetas {
         display: flex;
-        flex-wrap: nowrap; /* Evita que las tarjetas se desborden al final */
-        overflow-x: auto; /* Agrega scroll horizontal si las tarjetas no caben en el contenedor */
+        flex-wrap: nowrap;
+        overflow-x: auto;
     }
     
     .tarjeta {
-        flex: 0 0 auto; /* Fuerza a las tarjetas a mantener su ancho original */
-        margin-right: 20px; /* Espacio entre las tarjetas */
+        flex: 0 0 auto;
+        margin-right: 20px;
     }
 }
