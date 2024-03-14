@@ -75,8 +75,6 @@ figure img {
     border-radius: 50%;
 }
 
-
-
 .boton-red-social {
     display: block;
     background-color: var(--Gris); /* Color de fondo similar al de los botones de redes sociales */
@@ -136,10 +134,16 @@ p {
     margin-bottom: 16px;
 }
 
-/* Media Query */
-@media (min-width: 576px) {
+/* Media Query para pantallas de escritorio */
+@media (min-width: 768px) {
+    .tarjetas {
+        display: flex;
+        flex-wrap: nowrap; /* Evita que las tarjetas se desborden al final */
+        overflow-x: auto; /* Agrega scroll horizontal si las tarjetas no caben en el contenedor */
+    }
+    
     .tarjeta {
-        width: 386px;
-        padding: 40px;
+        flex: 0 0 auto; /* Fuerza a las tarjetas a mantener su ancho original */
+        margin-right: 20px; /* Espacio entre las tarjetas */
     }
 }
